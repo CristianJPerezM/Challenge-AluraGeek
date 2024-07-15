@@ -1,0 +1,16 @@
+footer{
+    font-family: "Press Start 2P", system-ui;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background: #5300C8;
+    box-shadow: 0px 7px 0.9px rgba(0, 0, 0, 0.25);
+}
+
+.footer__rodape{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    padding: 1rem;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enviar producto</title>
+</head>
+<body>
+
+        <!-- encabezado -->
+        <header>
+
+            <nav class="encabezado">
+                <a class="logo" href="/index.html"></a>
+
+                <div class="cabecalho__icones">
+                    <a href="/pages/enviar-producto.html" class="cabecalho__productos"></a>
+                </div>
+            </nav>
+
+        </header>
+
+        <main class="container">
+
+            <form class="container__formulario" data-formulario>
+
+                <h2 class="formulario__producto">¡Envía un producto!</h3>
+                    <div class="formulario__campo">
+                        <label class="campo__etiqueta" for="producto">Nombre del Producto</label>
+                        <input name="nombre" class="campo__escrita" required placeholder="Nombre del producto"id='nombre' data-nombre-producto/>
+                    </div>
+
+                    <div class="formulario__campo">
+                        <label class="campo__etiqueta" for="precio">Precio del Producto</label>
+                        <input name="precio" class="campo__escrita" required placeholder="Precio del producto" id='precio' data-precio-producto/>
+                    </div>
+
+                    <div class="formulario__campo">
+                        <label class="campo__etiqueta" for="imagem">Imagen del Producto</label>
+                        <input name="imagem" class="campo__escrita" required placeholder="Inserta la URL de la imagen"id='imagem' data-imagen-producto/>
+                    </div>
+
+                    <input class="formulario__boton" type="submit" />
+            </form>
+
+        </main>
+
+    <script src="../js/crearProducto.js" type="module"></script>
+
+</body>
+</html>

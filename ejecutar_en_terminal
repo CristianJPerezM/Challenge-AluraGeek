@@ -1,0 +1,2 @@
+Ejecutar código ( npx json-server --watch db.json --port 3001 ) en la terminal de proyecto. 
+La terminal se abre con el comando Ctrl+ñ o en la barra ver y la opción terminal 

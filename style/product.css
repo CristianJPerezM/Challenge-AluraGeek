@@ -1,0 +1,50 @@
+.my_product{
+    font-family: "Press Start 2P", system-ui;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding: 20px;
+    text-align: center;
+
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.articles{
+    padding: 100px 20px 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.articles_item{
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* flex-wrap: wrap; */
+}
+
+.image_product{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 22px 0 0 0;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    background-color: aqua;
+}
+
+.articles_description{
+font-style: italic;
+font-weight: 700;
+font-size: 16px;
+/* text-align: center; */
+line-height: 25px;
+}

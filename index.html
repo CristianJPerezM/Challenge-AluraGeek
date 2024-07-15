@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>AluraGeek</title>
+</head>
+<body>
+
+    <!-- Sección cuerpo principal -->
+    <header>
+        <div class="logo">
+            <img src="./img/corazones.png" class="logo" alt="corazones">
+            <h2>AluraGeek</h2>
+        </div>
+    </header>
+    <main>
+
+        <section class="add_product" data-formulario="">
+
+            <!-- Sección de para buscar productos -->
+            <!--<div class="encabezado_buscar">
+                <input type="search" placeholder="Buscar" id="buscar" class="buscar_input" data-busqueda>
+                <button class="bucar_boton" data-boton-busqueda></button>
+            </div> -->
+
+            <!-- Sección de para añadir productos -->
+            <div class="description">
+                <h1 class="title_add_product">agregar producto:</h1>
+                <form action="" class="description_product">
+                    <input class="product_input" type="text" name="name" placeholder="Mombre..." required data-nombre-producto>
+                        <span class="invalid_input_message"></span>
+                    <input class="product_input" type="text" placeholder="Precio..." name="price" required data-precio-producto>
+                        <span class="invalid_input_message"></span>
+                    <input class="product_input" type="text" placeholder="Imagen..." name="image" required data-imagen-producto>
+                        <span class="invalid_input_message"></span>
+                    <div class="action">
+                        <button class="action_button" type="submit">Enviar</button>
+                        <button class="action_button" type="reset">Limpiar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- Sección para ver los productos ya agregados -->
+        <section class="product">
+            <h1 class="my_product">mis productos:</h1>
+            <div class="sell_product">
+                <ul class="articles" alt="Lista de Articulos" data-lista>
+                    <!-- <li class="articles_item">
+                        <iframe class="image_product" width="480" height="380" src="./img/Xbox-Clasico.jpg" title="Xbox Clasico" frameborder="0"></iframe>
+                        <div class="articles_description">
+                            <h3>Xbox Clasico</h3>
+                            <h3>$ 50,00</h3>
+                            <img src="./img/delete_icon.svg" alt="Papelera">
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- Parte inferior de la página -->
+    <footer>
+        <div class="footer__rodape">
+            <p>Desarrollador Cristian Pérez</p>
+            <p>ALURA LATAM</p>
+            <P>2024</P>
+        </div>
+    </footer>
+
+    <script src="./js/mostrarProductos.js" type="module"></script>
+    <script src="./js/crearProducto.js" type="module"></script>
+    <script src="./js/buscarProducto.js" type="module"></script>
+
+</body>
+</html>
